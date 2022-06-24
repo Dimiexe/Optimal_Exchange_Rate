@@ -15,3 +15,5 @@ The code is simple and is written in python, using jupyter notebook.The modules 
 
 ### Functionality
 First, current exchange rates for the currencies are collected from an API (https://www.alphavantage.co) and stored in a pandas DataFrame.Then, a recursive function evaluates all potential exchange rates paths, starting from EUR and ending in CHF. (This hypothesis is based on 0 comision or any other kind of fees needed for currency exchange). Finally, the program shows any paths, and their absolute gains, that scored at least 1% better performance than the base EUR=>CHF exchange, as well as the most profitable path detected paired with its exchange ratio.
+
+Because of API authentication needs, and wanting to avoid potential exploitation, I have not included my person API key in the code, and instead that part of the code depicts "XXX-XXX-XXX". In order to use this code you have to get a (free, quick and easy) API key at https://www.alphavantage.co/support/#api-key.
