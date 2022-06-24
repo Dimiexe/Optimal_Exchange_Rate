@@ -11,7 +11,7 @@ So in light of those events, I was curious if there is a way to make the best ou
 
 
 ## The Code
-The code is simple and is written in python, using jupyter notebook.The modules used are: pandas, requests and time.
+The code is simple and is written in python and the modules used are: pandas, requests and time.
 
 ### Functionality
 First, current exchange rates for the currencies are collected from an API (https://www.alphavantage.co) and stored in a pandas DataFrame.Then, a recursive function evaluates all potential exchange rates paths, starting from EUR and ending in CHF. (This hypothesis is based on 0 comision or any other kind of fees needed for currency exchange). Finally, the program shows any paths, and their absolute gains, that scored at least 1% better performance than the base EUR=>CHF exchange, as well as the most profitable path detected paired with its exchange ratio.
