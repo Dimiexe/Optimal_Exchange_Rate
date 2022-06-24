@@ -1,4 +1,4 @@
-# Opyimal Exchange Rate
+# Optimal Exchange Rate
 
 ## The "problem" and its "causes"
 This is a pet project of mine, which aims to detect the optimal exchange rate achievable from EUR (€) to CHF (Swiss Francs). A total of 5 curencies are involved in the searching process i.e. EUR, CHF, USD, GBP and JPY. The program is trying to find the optimal exchange path from EUR to CHF (e.g. EUR => GBP => USD => CHF). The optimal path is that with the highest rate of conversion, or simply the path that turns a given amount of EUR to the highest CHF amount possible.
